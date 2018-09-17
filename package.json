@@ -1,0 +1,14 @@
+{
+  "name": "fork-text2mindmap",
+  "version": "1.0.0",
+  "description": "It's a fork! Yeat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mind-map"
+  ],
+  "author": "",
+  "license": "MIT"
+}
