@@ -1,6 +1,26 @@
 # Mind Map
 
-WIP
+## Setup
+
+### Install
+
+```bash
+$ npm i
+```
+
+### Run for dev env
+
+A server on `http://localhost:2911/` and a watcher for changes will run.
+
+```bash
+$ npm run dev
+```
+
+### Run for dist
+
+```bash
+$ npm run build
+```
 
 ## Please note
 
