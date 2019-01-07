@@ -3,12 +3,15 @@ const ghpages = require('gh-pages');
 
 /**
  * Copy images to work dir
+ *
+ * Docs:
+ *  https://www.npmjs.com/package/gh-pages
  */
 module.exports = (gulp, options, plugins) => {
     gulp.task('dist:page', () => {
         return ghpages.publish('./dist', {
             branch: 'gh-pages',
-            repo: 'git@github.com:nogsantos/fork-text2mindmap.git'
+            repo: 'git@github.com:nogsantos/mindmap.git'
         }, {})
     });
 
