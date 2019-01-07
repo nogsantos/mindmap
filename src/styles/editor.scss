@@ -12,19 +12,19 @@
 #editor {
 	height: 100%;
 	padding: 20px 15px;
+	& > .CodeMirror {
+		height: 100%;
+	}
+
+	& .cm-link {
+		text-decoration: none;
+	}
+
+	& .CodeMirror-lines {
+		margin: 20px 15px;
+	}
 }
 
-#editor > .CodeMirror {
-	height: 100%;
-}
-
-#editor .cm-link {
-	text-decoration: none;
-}
-
-#editor .CodeMirror-lines {
-	margin: 20px 15px;
-}
 
 #textArea {
 	resize: none;
