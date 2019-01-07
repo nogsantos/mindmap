@@ -16,6 +16,11 @@ module.exports = (gulp, options, plugins) => {
         runSequence(...tasks, callback);
     });
 
+    gulp.task('publish', callback => {
+        let tasks = ['gh-pages'];
+        runSequence(...tasks, callback);
+    });
+
     gulp.task('run', callback => {
         runSequence('server', 'watch', callback);
     });
