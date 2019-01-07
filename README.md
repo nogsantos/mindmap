@@ -2,7 +2,7 @@
 
 ## Setup
 
-### Install
+### Dependencies Install
 
 ```bash
 $ npm i
@@ -20,6 +20,20 @@ $ npm run dev
 
 ```bash
 $ npm run build
+```
+
+### Gh-pages publish
+
+To build and publish
+
+```bash
+$ npm run build-and-publish
+```
+
+Only to publish. The `dist` folder must be build before publish
+
+```bash
+$ npm run publish
 ```
 
 ## Please note
