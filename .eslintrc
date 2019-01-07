@@ -1,0 +1,33 @@
+{
+    "extends": "react-app",
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "rules": {
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "no-undef": "warn",
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": "warn",
+        "no-unused-vars": "warn",
+        "no-underscore-dangle": [
+            2,
+            {
+                "allowAfterThis": true,
+                "allow": [
+                    "_this"
+                ]
+            }
+        ]
+    },
+    "plugins": [
+        "import"
+    ]
+}

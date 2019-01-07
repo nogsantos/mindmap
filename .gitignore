@@ -47,3 +47,10 @@ Temporary Items
 .apdisk
 
 .vscode/
+
+node_modules/
+dist/
+dev/
+
+.editorconfig
+*.log
