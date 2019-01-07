@@ -3,10 +3,10 @@
  */
 settings = (function () {
     // Used for seperating settings on the same domain
-    const prefix = "text2mindmap";
+    const prefix = "mindmap";
     // Default values for various user settings.
     const defaultValues = {
-        "documentContent": "Text2MindMap\n\tTurn tab-indented lists into mind maps\n\t\tPress Tab to indent lines\n\t\tPress Shift + Tab to unindent lines\n\tDrag nodes to re-organize them\n\tThis project is based on the now dead site Text2MindMap.com",
+        "documentContent": "MindMap\n\tTurn tab-indented lists into mind maps\n\t\tPress Tab to indent lines\n\t\tPress Shift + Tab to unindent lines\n\tDrag nodes to re-organize them\n\tThis project is based on the now dead site MindMap.com",
         "documentTitle": "Untitled Document"
     };
     // Used for converting settings values to actual font-familys.
